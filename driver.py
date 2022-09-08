@@ -24,7 +24,7 @@ def testWorkerClass(inputStr):
     # Add code to create a Worker object
     # Use the object to call each of the methods in the Worker class
     # Print the result of each call
-    work = Worker('applelppa')
+    work = Worker(inputStr)
     print('\tInput string is ' + work.getString())
     print('\tReverse of string is ' + work.reverseStr())
     print('\tDoes string contain apple? ' + work.containsWord('apple'))
